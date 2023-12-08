@@ -50,12 +50,12 @@ for i in range(1, 101):
 |     print(i)	 |Cetak nilai i |
 |   else:      |Jika i adalah kelipatan 10 |
 |       print("Della Erlina")   |Cetak "Della Erlina" satu kali |
-|       print("Della Erlina")	     |Cetak "Della Erlina" satu kali |
-|       print("Della Erlina")	     |Cetak "Della Erlina" satu kali |
+|       print("Della Erlina")	     |Cetak "Della Erlina" dua kali |
+|       print("Della Erlina")	     |Cetak "Della Erlina" tiga kali |
 <h5 align="center"> Tabel 1.1 Penjelasan Kode Versi 1</h5>
 </div>
 Penjelasan : program menggunakan perulangan for untuk mengiterasi variabel i dari 1 hingga 100. Selanjutnya, program menggunakan pernyataan if-else untuk menentukan apakah nilai i adalah kelipatan 10 atau tidak. Jika i bukan kelipatan 10, program mencetak nilai i. Jika i adalah kelipatan 10, program mencetak "Della Erlina" tiga kali.
-if i % 10 != 0:: Ini adalah kondisi yang memeriksa apakah nilai iterasi i bukan kelipatan 10.
+if i % 10 != 0 : Ini adalah kondisi yang memeriksa apakah nilai iterasi i bukan kelipatan 10.
 Jika bukan kelipatan 10, maka mencetak nilai iterasi itu sendiri (print(i)).
 Jika kelipatan 10, maka mencetak "Della Erlina" sebanyak tiga kali dengan menggunakan tiga pernyataan print.
 Akhirnya, perulangan berlanjut hingga mencapai 100.
@@ -95,7 +95,7 @@ Akhirnya, perulangan berlanjut hingga mencapai 100.
 |....   | 	... | .... |
 <h5 align="center"> Tabel 1.3 Kode Versi 3</h5>
 </div>
-Penjelasan : Pada setiap iterasi, program memeriksa apakah nilai i adalah kelipatan 10. Jika iya, maka program mencetak "Della Erlina\n" sebanyak 3 kali. Jika tidak, program hanya mencetak nilai i. Iterasi ini berlanjut hingga i mencapai nilai 100.
+Penjelasan : Pada setiap iterasi, program memeriksa apakah nilai i adalah kelipatan 10. Jika iya, maka program mencetak "Della Erlina" sebanyak 3 kali. Jika tidak, program hanya mencetak nilai i. Iterasi ini berlanjut hingga i mencapai nilai 100.
 
 
 ## Penjelasan soal no 2
@@ -123,7 +123,7 @@ def game_tebak_angka():
             if percobaan < jumlah_percobaan:
                 print("Tebakan Anda salah. Coba lagi!")
             else:
-                print(f"Maaf, Anda gagal. Angka yang benar adalah {angka_rahasia}.")
+                print("Maaf, Anda gagal. Angka yang benar adalah {angka_rahasia}.")
 
 if __name__ == "__main__":
     game_tebak_angka()
@@ -220,8 +220,5 @@ for index, nilai in enumerate(my_array, start=1):
 Dengan menggunakan f-string (format string), program mencetak informasi setiap elemen dalam format yang bersahabat, termasuk indeks elemen dan nilai elemennya.
 
 
-<h5 align="left"> 🔭 Source Code yang telah saya buat dapat di akses pada link ini [Source code Tugas Della (https://colab.research.google.com/drive/1EOcdNTBMvzQSh6A3Xb3KIQ6yGXsdch4l#scrollTo=GQjG0O1AN8Kq&line=1&uniqifier=1)</h5> 
-
-<a href="https://instagram.com/https://instagram.com/della_erlinaa?igshid=nzzlodbkywe4ng==" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://instagram.com/della_erlinaa?igshid=nzzlodbkywe4ng==" height="30" width="40" /></a>
-</p>
+<h5 align="left"> 🔭 Source Code yang telah saya buat dapat di akses pada link ini [Source code Tugas Della] (https://colab.research.google.com/drive/1EOcdNTBMvzQSh6A3Xb3KIQ6yGXsdch4l#scrollTo=GQjG0O1AN8Kq&line=1&uniqifier=1)</h5> 
 
